@@ -1,3 +1,50 @@
 body {
     font-family: 'Poppins';
 }
+
+/* my first heading */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+.mary {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.r {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+}
